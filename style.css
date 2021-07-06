@@ -1,0 +1,47 @@
+section {
+    background-color: #81A594;
+  }
+  
+  .blockquote1 {
+    background-color: #f7efd2;
+  }
+  
+  .blockquote2 {
+    background-color: #eed7a1;
+  }
+   
+  
+  body {
+    background-color: #81A594;
+  }
+  
+  nav {
+    background-color: #9BB7D4;
+  }
+
+  .col figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+    transition: 1s;
+}
+
+h3 {
+    font-size: 15px;
+    text-align: end;
+}
+
+.blockquote1:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    background-color: #eed7a1;
+    transition: 1s;
+}
+
+.blockquote2:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    background-color: #f7efd2;
+    transition: 1s;
+}
+
+.row figure img {box-shadow: #47a07a 5px -5px;}
